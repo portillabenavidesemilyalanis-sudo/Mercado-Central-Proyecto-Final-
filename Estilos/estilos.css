@@ -15,7 +15,7 @@ body{
     margin-bottom: 0px;
 }
 .Contenedor-cabecera{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto 50px;
     padding: 0 20px;
     display: flex;
@@ -25,10 +25,10 @@ body{
     display: flex;
     align-items: center;
     gap: 1px;
-    height: 50px;
+    height: 70px;
 }
 .logo img{
-    height: 50px;
+    height: 70px;
     display: block;
 }
 .menú{
@@ -113,9 +113,10 @@ p{
     padding: 15px;
 }
 .Comida-tradicional img{
-    position: relative;
     width: 300px;
     margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
 }
 .btn-tradicion{
    color: #432900;
@@ -130,9 +131,9 @@ p{
     padding: 15px;
 }
 .Mercado img{
-    position: relative;
     width: 300px;
     margin-bottom: 10px;
+    text-align: center;
 }
 .btn-mercado{
    color: #432900;
@@ -147,9 +148,10 @@ p{
     padding: 15px;
 }
 .Víveres img{
-    position: relative;
     width: 300px;
     margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
 }
 .btn-víveres{
    color: #432900;
@@ -162,13 +164,37 @@ p{
 .Contacto{
     margin: 50px;
 }
+.mapa{
+    align-items: center;
+    margin-bottom: 30px;
+}
 .formulario{
     text-align: center;
 }
 .pié-de-página{
-    margin: 50px;
+    background-color: #432900;
+    padding: 20px 0;
+    margin-bottom: 0px;
+    align-items: center;
+}
+.contenedor-pie{
+    max-width: 1400px;
+    margin: auto 50px;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+.logos img{
+    width: 250px;
 }
 .pié-de-página p{
     text-align: center;
     color: #FFFFFF;
+    
 }
