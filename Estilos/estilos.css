@@ -6,13 +6,13 @@ box-sizing: border-box;
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    background-color: #FFFFFF;
+    background-color: #e6e6e6;
 }
 .cabecera{
     background-color: #E7C6A5;
     color: #432900;
     padding: 10px 0;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 .Contenedor-cabecera{
     max-width: 1200px;
@@ -54,18 +54,46 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 350px;
     margin: 0;
-    object-fit: cover;
-    z-index: 1;
 }
-.banner img{}
-.banner::before{}
-.Contenedor-banner{}
+.banner img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Contenedor-banner{
+    max-width: 380px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
 .Contenedor-banner h1{
     color: #FFFFFF;
-    font-size: 45px;
+    font-size: 50px;
 }
 .Contenedor-banner p{
     color: #FFFFFF;
+}
+h2{
+    color: #432900;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sobre-nosotros{
+    margin: 50px;
+}
+.sobre-nosotros img{
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.Servicios{
+    margin: 50px;
+}
+.Contacto{
+    margin: 50px;
 }
