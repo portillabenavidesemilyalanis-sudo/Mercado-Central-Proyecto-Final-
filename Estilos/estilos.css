@@ -11,7 +11,7 @@ body{
 .cabecera{
     background-color: #E7C6A5;
     color: #432900;
-    padding: 10px 0;
+    padding: 20px 0;
     margin-bottom: 0px;
 }
 .Contenedor-cabecera{
@@ -54,7 +54,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 350px;
+    height: 650px;
     margin: 0;
 }
 .banner img{
@@ -83,6 +83,15 @@ h2{
     text-align: center;
     margin-bottom: 30px;
 }
+h3{
+    color: #432900;
+    text-align: center;
+    margin-bottom: 10px;
+}
+p{
+    color: #432900;
+    margin-bottom: 10px;
+}
 .sobre-nosotros{
     margin: 50px;
 }
@@ -94,6 +103,72 @@ h2{
 .Servicios{
     margin: 50px;
 }
+.nuestros-servicios{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.Comida-tradicional{
+    background-color: #E7C6A5;
+    padding: 15px;
+}
+.Comida-tradicional img{
+    position: relative;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.btn-tradicion{
+   color: #432900;
+   background-color: #E7C6A5;
+   padding: 5px;
+   font-weight: bold;
+   border-radius: solid #432900 5px;
+   cursor: pointer;
+}
+.Mercado{
+    background-color: #E7C6A5;
+    padding: 15px;
+}
+.Mercado img{
+    position: relative;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.btn-mercado{
+   color: #432900;
+   background-color: #E7C6A5;
+   padding: 5px;
+   font-weight: bold;
+   border-radius: solid #432900 5px;
+   cursor: pointer;
+}
+.Víveres{
+    background-color: #E7C6A5;
+    padding: 15px;
+}
+.Víveres img{
+    position: relative;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.btn-víveres{
+   color: #432900;
+   background-color: #E7C6A5;
+   padding: 5px;
+   font-weight: bold;
+   border-radius: solid #432900 3px;
+   cursor: pointer;
+}
 .Contacto{
     margin: 50px;
+}
+.formulario{
+    text-align: center;
+}
+.pié-de-página{
+    margin: 50px;
+}
+.pié-de-página p{
+    text-align: center;
+    color: #FFFFFF;
 }
