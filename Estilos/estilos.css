@@ -106,17 +106,17 @@ p{
 .nuestros-servicios{
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
+    margin: 40px 0;
 }
 .Comida-tradicional{
     background-color: #E7C6A5;
     padding: 15px;
+    text-align: center;
 }
 .Comida-tradicional img{
     width: 300px;
     margin-bottom: 10px;
-    justify-content: center;
-    align-items: center;
 }
 .btn-tradicion{
    color: #432900;
@@ -129,11 +129,11 @@ p{
 .Mercado{
     background-color: #E7C6A5;
     padding: 15px;
+    text-align: center;
 }
 .Mercado img{
     width: 300px;
     margin-bottom: 10px;
-    text-align: center;
 }
 .btn-mercado{
    color: #432900;
@@ -146,12 +146,11 @@ p{
 .Víveres{
     background-color: #E7C6A5;
     padding: 15px;
+    text-align: center;
 }
 .Víveres img{
     width: 300px;
     margin-bottom: 10px;
-    justify-content: center;
-    align-items: center;
 }
 .btn-víveres{
    color: #432900;
@@ -165,11 +164,41 @@ p{
     margin: 50px;
 }
 .mapa{
-    align-items: center;
-    margin-bottom: 30px;
+    display: block;
+    width: 100%;
+    max-width: 1400px;
+    height: 450px;
+    margin: 0 auto 30px auto;
 }
 .formulario{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #432900;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.formulario form{
+    width: 700px;
+}
+.formulario input{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+.formulario textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+.btn-enviar{
+    color: #ffffff;
+   background-color: #432900;
+   padding: 5px;
+   font-weight: bold;
+   border-radius: solid #432900 3px;
+   cursor: pointer;
 }
 .pié-de-página{
     background-color: #432900;
@@ -186,9 +215,14 @@ p{
 }
 .logos{
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 100px;
     margin-bottom: 50px;
+}
+#carrea{
+    height: 280px;
+    width: auto;
 }
 .logos img{
     width: 250px;
